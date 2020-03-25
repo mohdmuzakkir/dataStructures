@@ -2,6 +2,7 @@ package dataStructures;
 
 import java.lang.reflect.Array;
 
+// Used in add method of ArrayLinearList
 public class ChangeArrayLength
 {
     public static Object[] changeLength1D(Object[] a,int n,int newLength)
