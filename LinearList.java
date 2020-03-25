@@ -1,7 +1,8 @@
 package dataStructures;
 
-// interface for LinearList
+/** interface for LinearList*/
 
+//implemented in ArrayList,LinkedList,etc.
 public interface LinearList 
 {
     public boolean isEmpty();
