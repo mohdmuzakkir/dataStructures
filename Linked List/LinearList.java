@@ -1,6 +1,6 @@
 package dataStructures;
 
-// interface for LinearList
+/** interface for LinearList to be implemented in Arrays, Linked List, etc */
 
 public interface LinearList 
 {
