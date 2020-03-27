@@ -1,6 +1,6 @@
 package dataStructures;
 
-// interface for LinearList
+/**ChainNode class creates a node with data and link elment in a node */
 
 public interface LinearList 
 {
