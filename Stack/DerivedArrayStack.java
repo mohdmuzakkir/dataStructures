@@ -28,7 +28,7 @@ public class DerivedArrayStack extends ArrayLinearList implements Stack
     /** retruns the element at the top of the Stack */
     public Object peek()
     {
-        if(isEmpty()) // throws an exception if the Stack is empty
+        if(empty()) // throws an exception if the Stack is empty
             throw new EmptyStackException();
 
         return get(size()-1); // size() method of ArrayLinearList is invoked
